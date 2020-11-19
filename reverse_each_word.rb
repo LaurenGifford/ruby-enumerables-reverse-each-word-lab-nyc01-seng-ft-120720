@@ -7,12 +7,12 @@ def reverse_each_word(string)
   string_array = []
   string_array << string.split()
   
+  binding.pry
   reverse_array = []
   string_array.each { 
     |word|
     reverse_array << word.reverse
   }
-  binding.pry
   reverse_array.join(" ")
 end
 
