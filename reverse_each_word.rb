@@ -2,12 +2,11 @@
 # string_array = ["Hello", "there", "and", "how", "are", "you", "?"]
 
 require 'pry'
-
 def reverse_each_word(string)
   string_array = []
+  binding.pry
   string_array << string.split()
   
-  binding.pry
   reverse_array = []
   string_array.each { 
     |word|
