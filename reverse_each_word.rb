@@ -26,3 +26,5 @@ def reverse_each_word(string)
     word.reverse
   }
 end
+
+reverse_each_word()
