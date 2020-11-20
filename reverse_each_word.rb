@@ -2,7 +2,7 @@
 # string_array = ["Hello", "there", "and", "how", "are", "you", "?"]
 
 def reverse_each_word(string)
-  string_array = string.split("")
+  string_array = string.split(" ")
   
   reverse_array = []
   string_array.each { 
