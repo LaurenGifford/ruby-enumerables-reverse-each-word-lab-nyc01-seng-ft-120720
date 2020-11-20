@@ -5,7 +5,7 @@ require'pry'
 def reverse_each_word(string)
   string_array = []
   string_array << string.split()
-  
+  binding.pry
   reverse_array = []
   string_array.each { 
     |word|
